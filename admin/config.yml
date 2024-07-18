@@ -1,0 +1,13 @@
+# config.yml
+
+backend:
+  name: github
+  repo: Urogy/just-the-docs
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: 'assets/uploads'
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'docs/'
+    fields:
+      - { name: Title }
