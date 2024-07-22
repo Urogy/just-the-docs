@@ -4,6 +4,18 @@ backend:
   name: github
   repo: Urogy/just-the-docs
   branch: main # Branch to update (optional; defaults to master)
+  base_url: https://my.urogy.in/
+  auth_endpoint: /
+  api_root: /api/v3
+
+
+#OauthConfiguration
+use_gat_oauth_provider: true 
+git_oauth_client_id: Ov23libExP4iGvohBzZB
+git_oauth_client_secret: a0f301da140939d8141489cb45f33ed5eeb7d49d
+git_oauth_scope: repo,
+# git_oauth_authorize_url: http://172.23.95.190:5555/oauth/authorize
+
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
